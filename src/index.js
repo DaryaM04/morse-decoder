@@ -59,8 +59,8 @@ function decode(expr) {
   
         elem = elem.split('10').join('.')
   
-        morse.push(elem)
-        console.log(morse)
+        morse.push(elem);
+        console.log(morse);
     }
   
     return morse
